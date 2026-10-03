@@ -145,7 +145,6 @@ nav a.active { color: var(--accent); }
 /* ================= SECTION কমন স্টাইল ================= */
 section {
   padding: 50px 0;
-  border-top: 1px solid var(--line);
 }
 
 section h2 {
@@ -193,6 +192,13 @@ section h2 {
 .project-card h3 {
   font-size: 1.1rem;
   margin-bottom: 6px;
+  color:var(--text);
+}
+.container p a{
+  color: var(--accent);
+}
+.container p a:hover{
+  border-bottom: 2px solid var(--accent);
 }
 
 .project-card p {
@@ -207,7 +213,7 @@ section h2 {
   flex-wrap: wrap;
 }
 
-.contact-links a {
+.contact-links  a {
   color: var(--accent);
   border-bottom: 1px solid transparent;
 }
